@@ -21,6 +21,10 @@ const int LINF = 2000000000000000001;
 //_ ***************************** START Below *******************************
 
 
+// 9 4
+// 1 5 0 3 4 1 2 2 3
+
+
 
 vector<int> a;
 int consistency(int n, int k) {
@@ -66,9 +70,9 @@ void solve() {
     a.resize(n);
     for(int i=0; i<n; i++) cin >> a[i];
     
-    // cout << consistency(n, k) << endl ;
+    cout << consistency(n, k) << endl ;
 
-    cout << consistency(n, k) << " -> " << practice(n, k) << endl ;
+    // cout << consistency(n, k) << " -> " << practice(n, k) << endl ;
 }
 
 
